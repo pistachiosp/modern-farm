@@ -2,7 +2,8 @@ const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Sunflower", "Potato" ]
 
 export const createPlan = () => {
     const plan = []
-
+//defining 3 rows of crops to be planted
+//in each row there are 6 plots of land
     for (let index = 0; index < 3; index++) {
         const row = []
         for (let j = 0; j < 6; j++) {

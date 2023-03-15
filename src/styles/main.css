@@ -33,4 +33,24 @@ h1,h2,h3,h4,h5,h6 {
 .red {
     background-color: darksalmon;
 }
+.background {
+    background-color: rgb(48, 245, 91);
+
+}
+.container {
+    display: flex; /* Display the child items in a Flex layout */
+    flex-wrap: wrap; /* Let the rows wrap if there are too many */
+    justify-content: space-evenly;
+    padding: 10px 10px 10px;
+}
+.plant {
+    margin-top: 10px;
+    text-align: center;
+    flex-basis: 10%; /*make each child element the same width*/
+    border: 1px dotted rgb(15, 110, 36); /*make border around each list item*/
+    border-radius: 25px;
+    padding: 10px 10px;
+}
+
+
 
